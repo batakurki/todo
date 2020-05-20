@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://taskuser:taskpwd123@ds039291.mlab.com:39291/mypdata', {
+mongoose.connect('mongodb://<username>:<password>@<hostipORhostaddress>:<PORT>/<DB_SCHEMA>', {
     useNewUrlParser : true,
     useCreateIndex : true,
     useUnifiedTopology: true
